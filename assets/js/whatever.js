@@ -107,6 +107,8 @@ function setupGame(){
 
 	wrongLetters = []
 
+	keysPressed = []
+
 	document.getElementById('gameBoard').style.display = "block"
 	document.getElementById('win').style.display = "none"
 	document.getElementById('playAgain').style.display = "none"
