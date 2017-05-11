@@ -62,7 +62,7 @@ function redraw(maskedWord, wrongLetters, wins, loses) {
 
 	document.getElementById('wins').innerHTML = "Wins: " + wins
 
-	document.getElementById('loses').innerHTML = "Loses: " + loses
+	document.getElementById('loses').innerHTML = "Losses: " + loses
 
 	document.getElementById('guesses').innerHTML = "Guesses remaining: " + guesses
 	
