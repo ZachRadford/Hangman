@@ -1,0 +1,88 @@
+span {
+	margin:5px;
+	text-transform: uppercase;
+}
+
+
+body {
+	background-position: 0 71px;
+	background-image: url("../pictures/background.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+	padding: 20px;
+	/*border-color: red;
+	border-style: solid;*/
+	background-color: #FFF;
+	text-align: center;
+	width: 55%;
+	float: left;
+	color: #000;
+}
+
+.navbar-default {
+	padding-bottom: 10px;
+}
+
+.navbar {
+	background-image: url("../pictures/top-gear-header.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	text-align: center;
+}
+
+.winner, .loser {
+	padding: 20px;
+	background-color: #000;
+	text-align: center;
+	width: 55%;
+	float: left;
+	color: #FFF;	
+}
+
+
+.myButton {
+	box-shadow: rgb(242, 156, 147) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(254, 26, 0) 5%, rgb(206, 1, 0) 100%) rgb(254, 26, 0);
+    border-radius: 6px;
+    border: 1px solid rgb(216, 53, 38);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: rgb(178, 62, 53) 0px 1px 0px;
+    float: right;
+}
+
+
+.tracking {
+	padding: 20px;
+	background-color: #FFF;
+	text-align: center;
+	color: #000;
+	float: right;
+}
+
+footer {
+	background-color: #032C61;
+	text-align: center;
+	border-top: 10px;
+	padding-top: 5px;
+	border-top-color: #17FD00;
+	border-top-style: solid;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+h1 {
+	text-shadow: 2px 2px 3px white;
+	color: #17FD00;
+}
