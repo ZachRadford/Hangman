@@ -1,5 +1,5 @@
 
-var	dick = ["ambitious but rubbish", "power", "that's not gone well", "how hard can it be", "alfa romeo", "Where do you think you've come", "allergic to manual labor", "the stig", "some say", "in the world", "i'm bored", "good news", "it's the dacia sandero", "honeybadger", "v8 blender", "hyenas are front wheel drive"]
+var	answerarray = ["ambitious but rubbish", "power", "that's not gone well", "how hard can it be", "alfa romeo", "Where do you think you've come", "allergic to manual labor", "the stig", "some say", "in the world", "i'm bored", "good news", "it's the dacia sandero", "honeybadger", "v8 blender", "hyenas are front wheel drive"]
 
 var keysPressed = []
 
@@ -45,7 +45,7 @@ document.onkeyup = function(event){
 
 	redraw(maskedWord, wrongLetters, wins, loses)
 
-	youDidOrDidNotFuckUp(guesses, maskedWord)	
+	youDidOrDidNotScrewUp(guesses, maskedWord)	
 }
 
 
@@ -78,7 +78,7 @@ function getAllIndexes(arr, val) {
 }
 
 
-function youDidOrDidNotFuckUp(guesses, maskedWord) {
+function youDidOrDidNotScrewUp(guesses, maskedWord) {
 	if (guesses === 0){
 		document.getElementById('gameBoard').style.display = "none"
 		document.getElementById('lose').style.display = "block"
@@ -96,9 +96,9 @@ function youDidOrDidNotFuckUp(guesses, maskedWord) {
 }
 
 function setupGame(){
-	random = Math.floor(Math.random()*dick.length)
+	random = Math.floor(Math.random()*answerarray.length)
 
-	word = dick[random].toLowerCase()
+	word = answerarray[random].toLowerCase()
 
 	//New Array
 	maskedWord = word.replace(/([A-Za-z])/g, '_').split("");
